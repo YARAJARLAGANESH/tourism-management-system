@@ -1,10 +1,5 @@
 # 🌍 Tourism Management System
 
-A web-based Tourism Management System developed using PHP and MySQL.  
-This project allows users to explore tourism packages and enables admin to manage bookings, users, and system settings.
-
----
-
 ## 🚀 Features
 
 - User Registration & Login
@@ -53,15 +48,15 @@ Copy project folder to:
 
 ### Step 6: Configure Database
 Open:
-or configuration file and ensure:
-
-```php
+classes/DBConnection.php
+Ensure:
+php
 define('DB_SERVER',"localhost");
 define('DB_USERNAME',"root");
 define('DB_PASSWORD',"");
 define('DB_NAME',"tourism_db");
 
-###Step 7: Run Project
+### Step 7: Run Project
 Open browser:
 http://localhost/tourism
 http://localhost/tourism/admin
@@ -75,3 +70,20 @@ Administrator Credentials:
 
 ⚠ It is recommended to change the default credentials after first login.
 
+📊 Database Structure
+Main tables include:
+users
+packages
+bookings
+reviews
+system_info
+Uses relational structure with primary and foreign keys.
+
+🔒 Security Considerations
+Password hashing implemented
+Admin authentication required
+Session-based access control
+Database connection encapsulated in class
+
+License
+This project is developed for educational purposes.
