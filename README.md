@@ -65,8 +65,8 @@ http://localhost/tourism/admin
 
 Administrator Credentials:
 
-- **Username:** ADMIN  
-- **Password:** ADMIN0906  
+- **Username:** admin
+- **Password:** Check in database -> user ->passwords
 
 ⚠ It is recommended to change the default credentials after first login.
 
