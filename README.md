@@ -66,7 +66,7 @@ http://localhost/tourism/admin
 Administrator Credentials:
 
 - **Username:** admin
-- **Password:** Check in database -> user ->passwords
+- **Password:** Ganesh (You can change after login)
 
 ⚠ It is recommended to change the default credentials after first login.
 
@@ -87,3 +87,6 @@ Database connection encapsulated in class
 
 License
 This project is developed for educational purposes.
+
+Sanchari live link : https://sanchari.infinityfreeapp.com/
+Sanchari Admin link : https://sanchari.infinityfreeapp.com/admin/
